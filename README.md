@@ -61,13 +61,6 @@ An intelligent document-based chatbot built with **FastAPI**, **LangChain**, **F
    pip install -r requirements.txt
    ```
 
-3. Ensure you have an `.env` file in the root directory:
-   ```env
-   EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
-   VECTOR_DB_PATH=data/vectorstore
-   DOCUMENT_PATH=data/documents
-   ```
-
 ## Running the Application
 
 1. Start the FastAPI server (this serves both the API and the frontend):
@@ -86,4 +79,3 @@ An intelligent document-based chatbot built with **FastAPI**, **LangChain**, **F
 4. Use the chat input box at the bottom to ask questions about your uploaded documents.
 
 ---
-*Developed using modern agentic full-stack practices.*
